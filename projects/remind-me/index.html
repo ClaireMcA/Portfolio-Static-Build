@@ -78,7 +78,7 @@
       </div>
       <ul id="menu" class="hamburger-menu-overlay">
         <li><a href="https://portfolio.clairelouisebutler.com" class="hamburger-menu-overlay-link">Home</a></li>
-        <li><a href="https://portfolio.clairelouisebutler.com/about/" class="hamburger-menu-overlay-link">About Claire Butler</a></li>
+        <li><a href="https://portfolio.clairelouisebutler.com/about/" class="hamburger-menu-overlay-link">About</a></li>
         
         
       </ul>
@@ -99,123 +99,11 @@
         </picture>
         
         
-        <p>Hugo combined with the Aether theme turns easy to write markdown into powerful web pages.  KaTeX, Highlight.js, and Hugo provides the ability to create mathmatical symobols, equations, highlighted code, tables, lists, and much more.</p>
-<p>For each feature below, the first line is the markdown and the second line is the result after Hugo, KaTeX, and Highlight.js process the markdown.  You can find many more features in the Hugo documentation.</p>
-<h2 id="latex-style-math-typsetting-with-katex">LaTeX style math typsetting with KaTeX</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">{{&lt; raw &gt;}}
-\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
-{{&lt; /raw &gt;}}
-</code></pre></div>
-\[u(t) = K_p e(t) + K_i \int_{0}^{t} e(\tau) d\tau + K_d \frac{de(t)}{dt} \]
-
-<h2 id="code-supports-many-programming-languages-and-formats">Code (Supports many programming languages and formats)</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"><span style="color:#009c00">```javascript
-</span><span style="color:#009c00"></span><span style="color:#00f">var</span> s = <span style="color:#009c00">&#34;JavaScript syntax highlighting&#34;</span>;
-alert(s);
-<span style="color:#009c00">```</span>
-</code></pre></div><div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#00f">var</span> s = <span style="color:#009c00">&#34;JavaScript syntax highlighting&#34;</span>;
-alert(s);
-</code></pre></div><h2 id="inline-code">Inline code</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">Here is <span style="color:#009c00">`var s = &#34;Hello World&#34;`</span> inline code
-</code></pre></div><p>Here is <code>var s = &quot;Hello World&quot;</code> inline code</p>
-<h2 id="tables">Tables</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-</code></pre></div><table>
-<thead>
-<tr>
-<th>Tables</th>
-<th style="text-align:center">Are</th>
-<th style="text-align:right">Cool</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>col 3 is</td>
-<td style="text-align:center">right-aligned</td>
-<td style="text-align:right">$1600</td>
-</tr>
-<tr>
-<td>col 2 is</td>
-<td style="text-align:center">centered</td>
-<td style="text-align:right">$12</td>
-</tr>
-<tr>
-<td>zebra stripes</td>
-<td style="text-align:center">are neat</td>
-<td style="text-align:right">$1</td>
-</tr>
-</tbody>
-</table>
-<h2 id="ordered-list">Ordered List</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"><span style="color:#00f">1.</span> Number one
-<span style="color:#00f">2.</span> Number Two
-    <span style="color:#00f">1.</span> Indented Number 1
-    <span style="color:#00f">2.</span> Indented Number 2
-</code></pre></div><ol>
-<li>Number one</li>
-<li>Number Two
-<ol>
-<li>Indented Number 1</li>
-<li>Indented Number 2</li>
-</ol>
-</li>
-</ol>
-<h2 id="unordered-list">Unordered List</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"><span style="color:#00f">*</span> Get groceries at Harris Teeter before the party
-<span style="color:#00f">*</span> Get a Spider Man cake
-    <span style="color:#00f">*</span> Chocolate or marble
-    <span style="color:#00f">*</span> Whipped cream frosting
-<span style="color:#00f">*</span> Don&#39;t forget to walk the dog before you leave
-<span style="color:#00f">*</span> Bring lots of plates and silverware so that we don&#39;t run out
-    <span style="color:#00f">*</span> Plastic Dixie brand is fine
-</code></pre></div><ul>
-<li>Get groceries at Harris Teeter before the party</li>
-<li>Get a Spider Man cake
-<ul>
-<li>Chocolate or marble</li>
-<li>Whipped cream frosting</li>
-</ul>
-</li>
-<li>Don&rsquo;t forget to walk the dog before you leave</li>
-<li>Bring lots of plates and silverware so that we don&rsquo;t run out
-<ul>
-<li>Plastic Dixie brand is fine</li>
-</ul>
-</li>
-</ul>
-<h2 id="comments">Comments</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md"><span style="color:#00f">&gt; </span>This is some text that should show up as a comment. Someone may have made this comment but i&#39;m not sure.
-</code></pre></div><blockquote>
-<p>This is some text that should show up as a comment. Someone may have made this comment but i&rsquo;m not sure.</p>
-</blockquote>
-<h2 id="images">Images</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">![NYC Skyline](/post/aether-features/mdd-iphone.jpg)
-</code></pre></div><p><img src="https://portfolio.clairelouisebutler.com/post/aether-features/mdd-iphone.jpg" alt="NYC Skyline"></p>
-<h2 id="small-images">Small Images</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">{{&lt; smallimg src=<span style="color:#009c00">&#34;featuredImage&#34;</span> alt=<span style="color:#009c00">&#34;NYC Skyline&#34;</span> smartfloat=<span style="color:#009c00">&#34;left&#34;</span> width=<span style="color:#009c00">&#34;250px&#34;</span> &gt;}}
-</code></pre></div><picture class="small-pic ">
-    
-    
-        
-        
-        
-            
-            
-        
-        
-        
-        <source srcset="https://portfolio.clairelouisebutler.com/projects/remind-me/Remind-me_hu8d43875d8123910a3ea0670068e16862_1884222_250x0_resize_lanczos_2.png 1x, https://portfolio.clairelouisebutler.com/projects/remind-me/Remind-me_hu8d43875d8123910a3ea0670068e16862_1884222_500x0_resize_lanczos_2.png 2x, https://portfolio.clairelouisebutler.com/projects/remind-me/Remind-me_hu8d43875d8123910a3ea0670068e16862_1884222_750x0_resize_lanczos_2.png 3x">
-        <img src="https://portfolio.clairelouisebutler.com/projects/remind-me/Remind-me_hu8d43875d8123910a3ea0670068e16862_1884222_250x0_resize_lanczos_2.png" class="small-img smartfloat-left" alt="aether theme displayed on an iPhone"  style="width: 250px;"/>
-    
-</picture>
-<p>This image floats to the left of this paragraph and is 250px wide. Its aspect ratio is maintained so it will not stretch. The picture shows the New York skyline. You can see how the design is responsive and how the cards intelligently fit to the display. With flexbox and css grid, heavy frameworks such as bootstrap aren&rsquo;t necessary to create beautiful responsive designs. The cards in aether use flexbox to change the image from the right side on desktops to the top on mobile.</p>
-<h2 id="links">Links</h2>
-<div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">[Aether&#39;s Github page](https://github.com/josephhutch/aether)
-</code></pre></div><p><a href="https://github.com/josephhutch/aether">Aether&rsquo;s Github page</a></p>
+        <h2 id="the-project-brief">The Project Brief</h2>
+<p>The purpose of this project was to create a tangible prototype that solves a real-world problem. The most challenging part of this was to identify a problem that was both relevant, and practical. The problem I identified was the issue of medication-related hospitalisations among the elderly population. More commonly refered to as compliance.</p>
+<p>It is well reported that the percentage of older people in the Australian population is increasing (DaVanzo, 2001). In 1950 the percentage of the population over 65 was ~4%, by 2000 it had reached ~6.5% and it is projected to continue to increase into the future (DaVanzo, 2001). As a result, the problems that the elderly population face become increasingly important to address. A serious problem within this population is medication compliance. Around 2-3% of hospital admissions in Australia are medication related and of those, omission or overdose are the most frequent type of incident (Roughead &amp; Semple, 2009).</p>
+<h2 id="the-concept">The Concept</h2>
+<p>The solution that I developed is aimed at assisting older people with taking their regular medication by implementing a reminder system that is built into a standard tablet box. Having an alarm to remind the user to take pills is great, but it is very easy to turn off the alarm and then forget to take the pills. Additionally, It can be frustrating when the user receives an alert while they are far away from their tablets - perhaps sitting down or doing something else, which can often result in them forgetting to take the tablets. To address these two problems, the prototype is able to sense if there are any tablets in today’s compartment and sense when the user is nearby, to provide convienently timed alerts.</p>
 
       </article>
       
