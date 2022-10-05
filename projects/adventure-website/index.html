@@ -32,6 +32,9 @@
     <link href="https://portfolio.clairelouisebutler.com/css/concated.min.css" rel="stylesheet">
     
     
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Oswald&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;1,400&display=swap" rel="stylesheet">
   </head>
   
   <body class="single-body">
@@ -65,7 +68,7 @@
         
     </a></h1>
     <div class="menu">
-        <h2><a href="https://portfolio.clairelouisebutler.com">Projects</a></h2>
+        <h2><a  class="active"href="https://portfolio.clairelouisebutler.com">Projects</a></h2>
         <h2><a href="https://portfolio.clairelouisebutler.comabout">About</a></h2>
     </div>
     <div class="hamburger-menu">
@@ -78,7 +81,6 @@
       </div>
       <ul id="menu" class="hamburger-menu-overlay">
         <li><a href="https://portfolio.clairelouisebutler.com" class="hamburger-menu-overlay-link">Home</a></li>
-        <li><a href="https://portfolio.clairelouisebutler.com/about/" class="hamburger-menu-overlay-link">About</a></li>
         
         
       </ul>
@@ -88,7 +90,7 @@
     <main class="content side-text-padding">
       <article class="post ">
         <header class="post-header">
-          <h1 class="post-title">Choose Your Own Adventure</h1>
+          <h1 >Choose Your Own Adventure</h1>
         </header>
         <picture class="post-figure">
           
@@ -99,11 +101,11 @@
         </picture>
         
         
-        <h2 id="project-brief">Project Brief</h2>
+        <h3 id="project-brief">Project Brief</h3>
 <p>I was given a lof of freedom for this project, the goal was to design and build a website that makes use of a static site generator. The idea I developed was to create something fun that made use of how easily SSG&rsquo;s allow you to create mutiple pages because of their template system. So I decided to create a Choose your own adventure site, as these are very simple pages but there are a LOT of them. I really enjoyed the process and the fun of building something a little bit different.</p>
-<h2 id="design">Design</h2>
+<h3 id="design">Design</h3>
 <p>I knew I would only need three templates/layouts for the site, a &lsquo;home&rsquo; page, a &lsquo;choice&rsquo; page and a &lsquo;end&rsquo; page. I drew up a hierarchy chart to create a flow for the game, so I knew exactly how many pages to build and which other pages they would link to.
-The hierachry can be seen below:</p>
+The hierarchy can be seen below:</p>
 <picture class="small-pic ">
     
     
@@ -119,8 +121,8 @@ The hierachry can be seen below:</p>
         <img src="https://portfolio.clairelouisebutler.com/projects/adventure-website/hierarchy_hub20339ed06035775aa56da5cbe9061e6_1198747_1000x0_resize_lanczos_2.png" class="small-img " alt="A diagram that shows all the possible choice in the website"  style="width: 1000px;"/>
     
 </picture>
-<h2 id="creating-the-templates-and-pages">Creating the templates and pages</h2>
-<p>I created all three templats with tester pages first and made sure that each template was responsive. Once the templates had been created it was only a matter of creating the hierachy using them. This was done with a whole bunch of markdown files. The links were added to the yaml of each markdown file</p>
+<h3 id="creating-the-templates-and-pages">Creating the templates and pages</h3>
+<p>I created all three templats with tester pages first and made sure that each template was responsive. Once the templates had been created it was only a matter of creating the hierarchy using them. This was done with a whole bunch of markdown files. The links were added to the yaml of each markdown file</p>
 <div class="highlight"><pre style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-yaml" data-lang="yaml">---
 <span style="color:#f00;font-style:italic"># set the layout to use, in this case, a &#39;choice&#39; page</span>
 layout: layouts/choice
@@ -137,7 +139,7 @@ choice:
 
 <span style="color:#f00;font-style:italic"># The text which asks the user to make a decision</span>
 There is a fork in the cave. Do you go left or right?
-</code></pre></div><h2 id="try-it-out">Try it Out</h2>
+</code></pre></div><h3 id="try-it-out">Try it Out</h3>
 <p>You can go take a look at the site <a href="https://portfolio.clairelouisebutler.com/projects/adventure-website/live">here</a>.</p>
 
       </article>
